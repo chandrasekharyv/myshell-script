@@ -16,6 +16,16 @@ yum install mysql -y
 if [ $? -ne 0 ]
 then
     echo "ERROR: installation of sql is error"
+    exit 1
 else
     echo "Installation of SQL is success"
+fi
+
+yum install nginx -y
+if [ $? -ne 0 ]
+then
+    echo "installation of nginx is error"
+    exit 1
+else
+    echo "installation of nginx is Success"
 fi
