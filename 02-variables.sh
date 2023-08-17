@@ -6,3 +6,4 @@ a=ram
 b=sham
 
 echo "$a: hi B $b, hello A"
+
