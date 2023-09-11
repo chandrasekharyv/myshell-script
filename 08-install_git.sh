@@ -10,7 +10,7 @@ else
 fi
 sudo yum install git -y
 
-if [$? -ne 0]
+if [ $? -ne 0 ]
 then
     echo "Installation is Failure "
 else
