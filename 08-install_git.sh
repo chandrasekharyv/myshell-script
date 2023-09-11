@@ -9,3 +9,10 @@ else
     echo "you are in root access"
 fi
 sudo yum install git -y
+
+if [$? -ne 0]
+then
+    echo "Installation is Failure "
+else
+    echo "Installation is successfull "
+fi
