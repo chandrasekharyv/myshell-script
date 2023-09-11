@@ -8,4 +8,4 @@ then
 else
     echo "you are in root access"
 fi
-yum install git -y
+sudo yum install git -y
